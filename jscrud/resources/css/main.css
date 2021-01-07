@@ -1,0 +1,39 @@
+body {
+    margin: 0%;
+}
+
+input[type='submit'],
+button,
+[aria-label] {
+    cursor: pointer;
+}
+
+#spoiler {
+    display: none;
+}
+
+table {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.mywelcome {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: darkgreen;
+    color: cornsilk;
+    font-weight: bolder;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

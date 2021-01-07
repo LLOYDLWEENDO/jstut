@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Countries CRUD</title>
+<link rel="stylesheet" href="./resources/css/main.css">
+</head>
+<body>
+    <div class="mywelcome">My Country CRUD App</div>
+
+    <div class="content"> 
+        <form action="javascript:void(0);" method="POST" onsubmit="app.Add()">
+        <input type="text" id="add-name" placeholder="New country">
+        <input type="submit" value="Add">
+        </form>
+        <p id="counter"></p>
+    </div>
+    
+        <div id="spoiler" role="aria-hidden">
+        <form action="javascript:void(0);" method="POST" id="saveEdit">
+        <input type="text" id="edit-name">
+        <input type="submit" value="Edit" /> <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
+        </form>
+        </div>
+        
+        <table>
+        <tr>
+        <th>Name</th>
+        </tr>
+        <tbody id="countries">
+        </tbody>
+        </table>
+<script src="./resources/js/app.js"></script>
+</body>
+</html>
